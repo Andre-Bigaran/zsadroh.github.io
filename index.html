@@ -15,24 +15,34 @@ h2
 	color: black;
 }
 
+#sub
+{
+	font-size: 12px; !important
+}
+
+#top
+{
+    display: flex;
+    align-items: baseline;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
 #input
 {
 	background-image: url('https://www.w3schools.com/css/searchicon.png');
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
-	width: 80%;
 	font-size: 16px;
 	padding: 12px 20px 12px 40px;
 	border: 1px solid #ddd;
 	margin-bottom: 12px;
+	width: 80%;
 }
 
 #input2
 {
-	padding: 0px 0px 1px 0px;
-	width: auto;
-	position: all;
-    float: right;
+	
 }
 
 #ul
@@ -62,6 +72,7 @@ h2
 </head>
 
 <body>
+<div id="top">
 <input type="text" id="input" placeholder="Pesquise por autores, gêneros, categorias, nomes e etc...">
 
 <select id="input2">
@@ -70,9 +81,19 @@ h2
     <option value=""></option>
 	<option value=""></option>
 </select>
+</div>
 
-<script src="/a.js"></script>
 <script>
+
+var rawFile = new XMLHttpRequest();
+rawFile.open("GET","info.txt", false);
+rawFile.onreadystatechange = function ()
+{
+	var allText = rawFile.responseText;
+	document.write(allText);
+}
+rawFile.send(null);
+
 input.oninput = function Filter()
 {
     var ul = document.getElementsByTagName("ul");
