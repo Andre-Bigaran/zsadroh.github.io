@@ -29,8 +29,10 @@ h2
 
 #input2
 {
-	padding: 0px 0px 0px 1px;
-	margin-bottom: -10px;
+	padding: 0px 0px 1px 0px;
+	width: auto;
+	position: all;
+    float: right;
 }
 
 #ul
@@ -42,7 +44,8 @@ h2
 
 #ul li a
 {
-	background-color: #f6f6f6;
+	border: 1px solid #555;
+	background-color: #eee;
 	padding: 12px;
 	text-decoration: none;
 	font-size: 18px;
@@ -52,28 +55,23 @@ h2
 
 #ul li a:hover:not(.header)
 {
-	background-color: #eee;
+	background-color: #cacfca;
 }
 
 </style>
 </head>
 
 <body>
-
 <input type="text" id="input" placeholder="Pesquise por autores, gêneros, categorias, nomes e etc...">
 
-<img id="input2" src="http://cdn.onlinewebfonts.com/svg/img_138950.png" width="30" height="30">
+<select id="input2">
+	<option value="">Testing</option>
+    <option value=""></option>
+    <option value=""></option>
+	<option value=""></option>
+</select>
 
-<ul id="ul">
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
-  <li><a href="#">Billy</a></li>
-  <li><a href="https://www.google.com" target="_blank">Bob</a></li>
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-</ul>
-
+<script src="a.js"></script>
 <script>
 input.oninput = function Filter()
 {
@@ -85,8 +83,7 @@ input.oninput = function Filter()
     for (var i in li)
 	{
 		var a = li[i].getElementsByTagName("a")[0];
-		var txtValue = a.textContent || a.innerText;
-
+		var txtValue = (a.textContent || a.innerText) + a.href;
         if (txtValue.toUpperCase().indexOf(filter) > -1)
 		{
 			li[i].style.display = "";
