@@ -33,14 +33,14 @@ h2
 	margin-bottom: -10px;
 }
 
-#myUL
+#ul
 {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-#myUL li a
+#ul li a
 {
 	background-color: #f6f6f6;
 	padding: 12px;
@@ -50,7 +50,7 @@ h2
 	display: block
 }
 
-#myUL li a:hover:not(.header)
+#ul li a:hover:not(.header)
 {
 	background-color: #eee;
 }
@@ -60,11 +60,11 @@ h2
 
 <body>
 
-<input type="text" id="input" onkeyup="Filter()" placeholder="Pesquise por autores, gêneros, categorias, nomes e etc...">
+<input type="text" id="input" placeholder="Pesquise por autores, gêneros, categorias, nomes e etc...">
 
 <img id="input2" src="http://cdn.onlinewebfonts.com/svg/img_138950.png" width="30" height="30">
 
-<ul id="myUL">
+<ul id="ul">
   <li><a href="#">Adele</a></li>
   <li><a href="#">Agnes</a></li>
   <li><a href="#">Billy</a></li>
@@ -75,18 +75,18 @@ h2
 </ul>
 
 <script>
-function Filter()
+input.oninput = function Filter()
 {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("input");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
+    var ul = document.getElementsByTagName("ul");
+    var li = document.getElementsByTagName("li");
+    var input = document.getElementById("input");
+    var filter = input.value.toUpperCase();
 
-    for (i = 0; i < li.length; i++)
+    for (var i in li)
 	{
-		a = li[i].getElementsByTagName("a")[0];
-		txtValue = a.textContent || a.innerText;
+		var a = li[i].getElementsByTagName("a")[0];
+		var txtValue = a.textContent || a.innerText;
+
         if (txtValue.toUpperCase().indexOf(filter) > -1)
 		{
 			li[i].style.display = "";
