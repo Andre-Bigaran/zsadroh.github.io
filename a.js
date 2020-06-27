@@ -1,5 +1,5 @@
 var rawFile = new XMLHttpRequest();
-    rawFile.open("GET","master/a.txt", false);
+    rawFile.open("GET","/a.txt", false);
     rawFile.onreadystatechange = function ()
     {
         
