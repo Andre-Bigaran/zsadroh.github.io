@@ -1,5 +1,5 @@
 var rawFile = new XMLHttpRequest();
-    rawFile.open("GET","a.txt", false);
+    rawFile.open("GET","https://raw.githubusercontent.com/The0And/the0and.github.io/master/a.txt", false);
     rawFile.onreadystatechange = function ()
     {
         
