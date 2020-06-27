@@ -1,1 +1,102 @@
-test
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>test</title>
+<style>
+
+body
+{
+	background-color: #a6a6a6;
+}
+
+h2
+{
+	text-align: center;
+	color: black;
+}
+
+#input
+{
+	background-image: url('https://www.w3schools.com/css/searchicon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	width: 80%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+
+#input2
+{
+	padding: 0px 0px 0px 1px;
+	margin-bottom: -10px;
+}
+
+#myUL
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#myUL li a
+{
+	background-color: #f6f6f6;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	display: block
+}
+
+#myUL li a:hover:not(.header)
+{
+	background-color: #eee;
+}
+
+</style>
+</head>
+
+<body>
+
+<input type="text" id="input" onkeyup="Filter()" placeholder="Pesquise por autores, gêneros, categorias, nomes e etc...">
+
+<img id="input2" src="http://cdn.onlinewebfonts.com/svg/img_138950.png" width="30" height="30">
+
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+  <li><a href="#">Billy</a></li>
+  <li><a href="https://www.google.com" target="_blank">Bob</a></li>
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+
+<script>
+function Filter()
+{
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("input");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+
+    for (i = 0; i < li.length; i++)
+	{
+		a = li[i].getElementsByTagName("a")[0];
+		txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1)
+		{
+			li[i].style.display = "";
+        }
+		else
+		{
+			li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
