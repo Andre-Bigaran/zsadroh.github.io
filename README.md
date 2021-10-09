@@ -1,1 +1,1 @@
-https://the0and.github.io
+the0and.github.io
