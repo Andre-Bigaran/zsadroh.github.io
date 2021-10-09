@@ -1,136 +1,181 @@
-/**
-	Startpage Reworked
-	==================
 
-	by Christian Brassat,
-*/
+/* colors */
+$placeholder: #888888;
+$mainBG: #373D45;
+$searchIcon: #888888;
+$searchIconActive: white;
+$searchText: white;
+$searchLine: white;
+$blockBG: rgba(0,0,0,0.2);
+$blockBorder: #222222;
+$blockHeader: #F38630;
+$blockLink: white;
+$blockHover: #69D2E7;
 
-/**
-	Released under MIT License
-	
-	Copyright (c) 2010 Christian Brassat
-	<http://crshd.cc>
+//theme
+$blockHeader: #95EDFD;
+$blockHover: #FF92D1;
 
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:
-	
-	The above copyright notice and this permission notice shall be included in
-	all copies or substantial portions of the Software.
-	
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-	THE SOFTWARE.
-*/
+/* responsive mixin */
 
-body {
-	background: #151515;										/* Page background */
-	color: #999;														/* Font color */
-	padding: 150px;													/* Padding between link blocks and edge */
-	font-family: "Museo", "Helvetica Neue", sans-serif;	/* Font */
-	text-shadow: rgba(0,0,0,0.6) 1px 1px 0; /* Text Shadow */
+$BP_XXL: 1600px;
+$BP_XL: 1200px;
+$BP_L: 1000px;
+$BP_M: 850px;
+$BP_S: 710px;
+$BP_XS: 650px;
+$BP_XXS: 400px;
+
+@mixin responsive($width: $BP_L) {
+	@media screen and (max-width: $width) {
+		@content;
+	}
 }
 
-a {
-	color: #999;														/* Link Color */
-	font-size: 11px;												/* Link Size */
-	text-decoration: none;									/* Remove underlines */
+/* placeholder */
+
+@mixin placeholder {
+	::-webkit-input-placeholder { @content }
+	:-moz-placeholder           { @content }
+	::-moz-placeholder          { @content }
+	:-ms-input-placeholder      { @content }
 }
 
-a:hover {
-	color: #ddd;														/* Link hover color */
+@include placeholder {
+	color: $placeholder;
+	opacity: 0;
+	transition: opacity .5s cubic-bezier(0.4, 0.0, 0.2, 1);
+	@at-root input:focus#{&} {
+		opacity: 1;
+	}
 }
 
-.block {
-	border-left: 1px solid #999;						/* Left border of link block */
-	float: left;
-	padding: 1em;														/* Padding around link block */
-	width: 160px;														/* Link block width */
-}
+/* main content */
 
-h1 {
+* {
 	margin: 0;
-	font-size: 1.5em;												/* Title size */
+	padding: 0;
+	line-height: 1.2;
+	font-family: "Inconsolata", monospace;
+	font-weight: 400;
+	opacity: 1.0;
 }
 
-ul {
-	padding: 0.25em;
+html, body {
+	background-color: $mainBG;
 }
 
-ul li {
-	list-style: none;
-	padding: 5px;
+.search-block {
+	position: relative;
+	width: 40%;
+	margin: 10vh auto 0px;
+  text-align: center;
+
+	@include responsive() {
+		width: 60%;
+		margin: 5vh auto 0vh;
+	}
+
+	label {
+		position: absolute;
+		color: $searchIcon;
+		top: 7px;
+		left: -20px;
+		transition: all 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+	}
+
+	input {
+		width: 100%;
+		margin: 0 auto; padding: 5px 0;
+		font-size: 16px;
+		background: transparent;
+		border: 2px solid transparent;
+		border-bottom: 2px solid transparent;
+		color: $searchText;
+		outline: none;
+		transition: all 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+		&:hover, &:focus {
+			border-bottom: 2px solid $searchLine;
+			& + label {
+				color: $searchIconActive;
+			}
+		}
+	}
+	ul.search-help {
+		transition: all .5s cubic-bezier(0.4, 0.0, 0.2, 1);
+    display: inline-block;
+		@include responsive() {
+			max-height: 100px;
+		}
+
+		li {
+			display: inline-block;
+			padding: 25px;
+			list-style: none;
+			cursor: pointer;
+			> span {
+				position: relative;
+				color: $searchText;
+				font-size: 20px;
+				.icon {
+					transition: opacity .5s cubic-bezier(0.4, 0.0, 0.2, 1);
+				}
+				.command {
+					position: absolute;
+					left: 0; right: 0;
+					text-align: center;
+					opacity: 0;
+					transition: opacity .5s cubic-bezier(0.4, 0.0, 0.2, 1);
+				}
+			}
+			&:hover {
+				.icon {
+					opacity: .2;
+				}
+				.command {
+					opacity: 1;
+				}
+			}
+		}
+	}
 }
 
-li img {
-	width: 16px;
-	border-width: 0;
-	margin: 5px;
-	vertical-align: middle;
-}
+.blocks {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
 
-#searches {
-	position: absolute;											/* Position search box */
-	top: 2em;																/*		from top edge */
-	right: 2em;															/*		from right edge */
-}
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
 
-#clock {
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	font-size: 2em;
-}
+	.block {
+		flex: 1;
 
-form {
-	margin-top: 1em;
+		margin: 2px;
+		padding: 10px 15px;
+		background-color: $blockBG;
+		border: 1px solid $blockBorder;
+		min-width: 160px;
+		li {
+			list-style: none;
+		}
+		.header {
+			color: $blockHeader;
+		}
+		a {
+			text-decoration: none;
+			cursor: pointer;
+			&:visited, &:focus, &:link {
+				color: $blockLink;
+			}
+			&:hover {
+				color: $blockHover;
+			}
+		}
+	}
+	@include responsive() {
+		width: 80%;
+	}
 }
-
-form input {
-	background: #333;												/* Background search box */
-	background: -webkit-gradient(						/*		gradient for webkit */
-		linear,
-		left top,
-		left bottom,
-		from(#222),
-		to(#333));
-	background: -moz-linear-gradient(				/*		gradient for gecko */
-		top,
-		#222,
-		#333);
-	border: 1px solid #444;									/* Border search box */
-	-webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 2px;	/* Shadow search box - webkit */
-	-moz-box-shadow: rgba(0,0,0,0.2) 0 1px 2px;			/* Shadow search box - gecko */
-	box-shadow: rgba(0,0,0,0.2) 0 1px 2px;					/* Shadow search box - generic */
-	color: #ddd;														/* Text color search box */
-	font-size: 1em;													/* Text size search box */
-}
-
-form input:first-child {
-	-webkit-border-top-left-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-right: 0;
-}
-
-form input:last-child {
-	-webkit-border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-left: 0;
-}
-/* cc BY-NC-SA License :: k3ttc4r :: 2008 :: http://k3ttc4r.deviantart.com */
-/* background by Alexander-GG :: http://alexander-gg.deviantart.com */
