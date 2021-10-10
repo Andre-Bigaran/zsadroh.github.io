@@ -31,7 +31,6 @@ li a:hover,
 li a:visited,
 li a:active {
   text-decoration: none;
-  transition: .1s;
 }
 
 #google {
@@ -170,11 +169,6 @@ input[type="search-input"]:hover {
   display: block;
   text-align: center;
   width: 100%;
-}
-
-form {
-  display: inline-block;
-  width: 90%;
 }
 
 label {
