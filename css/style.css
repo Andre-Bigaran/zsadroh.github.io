@@ -3,12 +3,8 @@
   src: url(Inconsolata-Regular.ttf);
 }
 
-.body {
-  back-ground-color: #1D1F21;
-}
-
-* {
-  border-radius: 0 !important;
+body {
+  background-color: #1D1F21;
 }
 
 .container {
