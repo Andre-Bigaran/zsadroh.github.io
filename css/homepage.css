@@ -30,13 +30,3 @@ form {
   .search:focus {
     outline: none;
     border: 2.5px solid #8f8f8f; }
-
-i {
-  color: #7d7d7d;
-  font-family: weather;
-  font-size: 150px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 0.0;
-  opacity: 0.5;
-}
