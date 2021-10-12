@@ -1,8 +1,4 @@
-@import url(/home/mike/scripts/START/js/weather.js);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,200);
-* {
-  margin: 0;
-  padding: 0; }
+
 
 form {
   width: 100%;
