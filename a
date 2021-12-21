@@ -1,0 +1,109 @@
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hacker News: Front Page</title><link>https://news.ycombinator.com/</link><description>Hacker News RSS</description><docs>https://hnrss.org/</docs><generator>hnrss v1.1-16-gb4aa33c</generator><lastBuildDate>Tue, 21 Dec 2021 18:35:37 +0000</lastBuildDate><atom:link href="https://hnrss.org/frontpage" rel="self" type="application/rss+xml"></atom:link><item><title><![CDATA[Ordering Movie Credits with Graph Theory]]></title><description><![CDATA[
+<p>Article URL: <a href="https://endcrawl.com/credits-ordering/">https://endcrawl.com/credits-ordering/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29639968">https://news.ycombinator.com/item?id=29639968</a></p>
+<p>Points: 20</p>
+<p># Comments: 3</p>
+]]></description><pubDate>Tue, 21 Dec 2021 17:48:47 +0000</pubDate><link>https://endcrawl.com/credits-ordering/</link><dc:creator>sigil</dc:creator><comments>https://news.ycombinator.com/item?id=29639968</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29639968</guid></item><item><title><![CDATA[EnTT: Gaming meets modern C++ 3.9 (ECS library and much more)]]></title><description><![CDATA[
+<p>Article URL: <a href="https://github.com/skypjack/entt">https://github.com/skypjack/entt</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29639588">https://news.ycombinator.com/item?id=29639588</a></p>
+<p>Points: 7</p>
+<p># Comments: 2</p>
+]]></description><pubDate>Tue, 21 Dec 2021 17:21:22 +0000</pubDate><link>https://github.com/skypjack/entt</link><dc:creator>tridentboy</dc:creator><comments>https://news.ycombinator.com/item?id=29639588</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29639588</guid></item><item><title><![CDATA[SuperTokens (YC S20) Is Hiring a head of technical content]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www.ycombinator.com/companies/supertokens/jobs/8b6xECpF3-head-of-technical-content-and-documentation">https://www.ycombinator.com/companies/supertokens/jobs/8b6xECpF3-head-of-technical-content-and-documentation</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29639336">https://news.ycombinator.com/item?id=29639336</a></p>
+<p>Points: 1</p>
+<p># Comments: 0</p>
+]]></description><pubDate>Tue, 21 Dec 2021 17:00:28 +0000</pubDate><link>https://www.ycombinator.com/companies/supertokens/jobs/8b6xECpF3-head-of-technical-content-and-documentation</link><dc:creator>advaitruia</dc:creator><comments>https://news.ycombinator.com/item?id=29639336</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29639336</guid></item><item><title><![CDATA[Teletext Archive – open repository for teletext recoverers]]></title><description><![CDATA[
+<p>Article URL: <a href="https://archive.teletextarchaeologist.org">https://archive.teletextarchaeologist.org</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29639292">https://news.ycombinator.com/item?id=29639292</a></p>
+<p>Points: 27</p>
+<p># Comments: 6</p>
+]]></description><pubDate>Tue, 21 Dec 2021 16:57:38 +0000</pubDate><link>https://archive.teletextarchaeologist.org</link><dc:creator>zaiste</dc:creator><comments>https://news.ycombinator.com/item?id=29639292</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29639292</guid></item><item><title><![CDATA[John Carmack on using Internet Archive as a default host-of-record for startups]]></title><description><![CDATA[
+<p>Article URL: <a href="https://twitter.com/ID_AA_Carmack/status/1473327982605385735">https://twitter.com/ID_AA_Carmack/status/1473327982605385735</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29639222">https://news.ycombinator.com/item?id=29639222</a></p>
+<p>Points: 101</p>
+<p># Comments: 56</p>
+]]></description><pubDate>Tue, 21 Dec 2021 16:51:23 +0000</pubDate><link>https://twitter.com/ID_AA_Carmack/status/1473327982605385735</link><dc:creator>bpierre</dc:creator><comments>https://news.ycombinator.com/item?id=29639222</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29639222</guid></item><item><title><![CDATA[Moral lessons from free software and GNU Emacs – Protesilaos Stavrou]]></title><description><![CDATA[
+<p>Article URL: <a href="https://protesilaos.com/codelog/2021-04-16-emacs-moral-lessons/">https://protesilaos.com/codelog/2021-04-16-emacs-moral-lessons/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29638547">https://news.ycombinator.com/item?id=29638547</a></p>
+<p>Points: 38</p>
+<p># Comments: 6</p>
+]]></description><pubDate>Tue, 21 Dec 2021 15:53:56 +0000</pubDate><link>https://protesilaos.com/codelog/2021-04-16-emacs-moral-lessons/</link><dc:creator>rbanffy</dc:creator><comments>https://news.ycombinator.com/item?id=29638547</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29638547</guid></item><item><title><![CDATA[The Fishback (Bussard) ramjet revisited]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www.sciencedirect.com/science/article/pii/S0094576521005804">https://www.sciencedirect.com/science/article/pii/S0094576521005804</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29638529">https://news.ycombinator.com/item?id=29638529</a></p>
+<p>Points: 32</p>
+<p># Comments: 11</p>
+]]></description><pubDate>Tue, 21 Dec 2021 15:51:44 +0000</pubDate><link>https://www.sciencedirect.com/science/article/pii/S0094576521005804</link><dc:creator>programd</dc:creator><comments>https://news.ycombinator.com/item?id=29638529</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29638529</guid></item><item><title><![CDATA[Unix Admin. Horror Story Summary, Version 1.0]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www-uxsup.csx.cam.ac.uk/misc/horror.txt">https://www-uxsup.csx.cam.ac.uk/misc/horror.txt</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29638367">https://news.ycombinator.com/item?id=29638367</a></p>
+<p>Points: 50</p>
+<p># Comments: 21</p>
+]]></description><pubDate>Tue, 21 Dec 2021 15:38:04 +0000</pubDate><link>https://www-uxsup.csx.cam.ac.uk/misc/horror.txt</link><dc:creator>voxadam</dc:creator><comments>https://news.ycombinator.com/item?id=29638367</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29638367</guid></item><item><title><![CDATA[PR to Merge Multicore OCaml]]></title><description><![CDATA[
+<p>Article URL: <a href="https://github.com/ocaml/ocaml/pull/10831">https://github.com/ocaml/ocaml/pull/10831</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29638152">https://news.ycombinator.com/item?id=29638152</a></p>
+<p>Points: 237</p>
+<p># Comments: 52</p>
+]]></description><pubDate>Tue, 21 Dec 2021 15:17:58 +0000</pubDate><link>https://github.com/ocaml/ocaml/pull/10831</link><dc:creator>c-cube</dc:creator><comments>https://news.ycombinator.com/item?id=29638152</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29638152</guid></item><item><title><![CDATA[Show HN: "crzy64", base64 mod aimed for fastest decoding]]></title><description><![CDATA[
+<p>Article URL: <a href="https://github.com/ilyakurdyukov/crzy64">https://github.com/ilyakurdyukov/crzy64</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29637986">https://news.ycombinator.com/item?id=29637986</a></p>
+<p>Points: 27</p>
+<p># Comments: 8</p>
+]]></description><pubDate>Tue, 21 Dec 2021 15:00:51 +0000</pubDate><link>https://github.com/ilyakurdyukov/crzy64</link><dc:creator>jpegqs</dc:creator><comments>https://news.ycombinator.com/item?id=29637986</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29637986</guid></item><item><title><![CDATA[Show HN: Glitch Image Generator]]></title><description><![CDATA[
+<p>Article URL: <a href="https://glitchyimage.com/">https://glitchyimage.com/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29637550">https://news.ycombinator.com/item?id=29637550</a></p>
+<p>Points: 56</p>
+<p># Comments: 21</p>
+]]></description><pubDate>Tue, 21 Dec 2021 14:16:16 +0000</pubDate><link>https://glitchyimage.com/</link><dc:creator>adamfuhrer</dc:creator><comments>https://news.ycombinator.com/item?id=29637550</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29637550</guid></item><item><title><![CDATA[The Belgian government has removed ‘backdoor requirement’ from new law]]></title><description><![CDATA[
+<p>Article URL: <a href="https://tutanota.com/blog/posts/belgian-encryption-backdoor-law-stopped/">https://tutanota.com/blog/posts/belgian-encryption-backdoor-law-stopped/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29637331">https://news.ycombinator.com/item?id=29637331</a></p>
+<p>Points: 351</p>
+<p># Comments: 160</p>
+]]></description><pubDate>Tue, 21 Dec 2021 13:50:19 +0000</pubDate><link>https://tutanota.com/blog/posts/belgian-encryption-backdoor-law-stopped/</link><dc:creator>Sami_Lehtinen</dc:creator><comments>https://news.ycombinator.com/item?id=29637331</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29637331</guid></item><item><title><![CDATA[TSMC in Japan: Things to know about its chip factory plans]]></title><description><![CDATA[
+<p>Article URL: <a href="https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-in-Japan-5-things-to-know-about-its-chip-factory-plans">https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-in-Japan-5-things-to-know-about-its-chip-factory-plans</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29637330">https://news.ycombinator.com/item?id=29637330</a></p>
+<p>Points: 124</p>
+<p># Comments: 68</p>
+]]></description><pubDate>Tue, 21 Dec 2021 13:50:15 +0000</pubDate><link>https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-in-Japan-5-things-to-know-about-its-chip-factory-plans</link><dc:creator>rbanffy</dc:creator><comments>https://news.ycombinator.com/item?id=29637330</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29637330</guid></item><item><title><![CDATA[Show HN: A Decentralized, End-to-End Encrypted Alternative to Dropbox]]></title><description><![CDATA[
+<p>Hey folks,<p>We are the team behind Slik.<p>Over the past year, we have been hacking on SlikSafe [1] a Dropbox alternative where all your data is first encrypted on your own device and then stored on decentralized storage.<p>Some features we're most excited about are -<p><pre><code>  - multi-device data sync,
+  - auto-backups via desktop apps,
+  - search your docs by name or contents with end-to-end encryption,
+  - easy sharing via email, QR-code or private-link,
+  - Password-less login using MetaMask/Phantom
+
+</code></pre>
+We leverage storage providers IPFS and Storj for global redundancy, reliability, and immutability.<p>You can use our web app [2] and macOS app [3] today. Our desktop app for Windows is currently in beta, and will be launched in early Jan.<p>You can read our WhitePaper [4] for the technical implementation, or see a quick demo [5] of the product.<p>Would love to hear what you think.<p>Arpit, Charvi<p>[1] SlikSafe: https://www.sliksafe.com<p>[2] Web app: https://app.sliksafe.com<p>[3] macOS app: https://sliksafe.com/downloads<p>[4] WhitePaper: https://sliksafe.com/whitepaper.pdf<p>[5] Demo video: https://www.loom.com/share/abe133c4ce874655a952a30601e99408</p>
+<hr>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29637188">https://news.ycombinator.com/item?id=29637188</a></p>
+<p>Points: 135</p>
+<p># Comments: 86</p>
+]]></description><pubDate>Tue, 21 Dec 2021 13:33:13 +0000</pubDate><link>https://news.ycombinator.com/item?id=29637188</link><dc:creator>arpitagarwal</dc:creator><comments>https://news.ycombinator.com/item?id=29637188</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29637188</guid></item><item><title><![CDATA[Dutch court of appeal decides Deliveroo should honor collective labour agreement]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www.rechtspraak.nl:443/Organisatie-en-contact/Organisatie/Gerechtshoven/Gerechtshof-Amsterdam/Nieuws/Paginas/Deliveroo-is-gebonden-aan-cao-en-moet-pensioenpremies-afdragen-voor-bezorgers.aspx">https://www.rechtspraak.nl:443/Organisatie-en-contact/Organisatie/Gerechtshoven/Gerechtshof-Amsterdam/Nieuws/Paginas/Deliveroo-is-gebonden-aan-cao-en-moet-pensioenpremies-afdragen-voor-bezorgers.aspx</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29636046">https://news.ycombinator.com/item?id=29636046</a></p>
+<p>Points: 64</p>
+<p># Comments: 47</p>
+]]></description><pubDate>Tue, 21 Dec 2021 10:44:29 +0000</pubDate><link>https://www.rechtspraak.nl:443/Organisatie-en-contact/Organisatie/Gerechtshoven/Gerechtshof-Amsterdam/Nieuws/Paginas/Deliveroo-is-gebonden-aan-cao-en-moet-pensioenpremies-afdragen-voor-bezorgers.aspx</link><dc:creator>the-dude</dc:creator><comments>https://news.ycombinator.com/item?id=29636046</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29636046</guid></item><item><title><![CDATA[How to develop black and white film at home with coffee]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www.fieldmag.com/articles/how-to-develop-film-with-coffee-caffenol-guide">https://www.fieldmag.com/articles/how-to-develop-film-with-coffee-caffenol-guide</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29635815">https://news.ycombinator.com/item?id=29635815</a></p>
+<p>Points: 157</p>
+<p># Comments: 33</p>
+]]></description><pubDate>Tue, 21 Dec 2021 10:07:04 +0000</pubDate><link>https://www.fieldmag.com/articles/how-to-develop-film-with-coffee-caffenol-guide</link><dc:creator>nanna</dc:creator><comments>https://news.ycombinator.com/item?id=29635815</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29635815</guid></item><item><title><![CDATA[Animated Drawings]]></title><description><![CDATA[
+<p>Article URL: <a href="https://sketch.metademolab.com/">https://sketch.metademolab.com/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29635422">https://news.ycombinator.com/item?id=29635422</a></p>
+<p>Points: 104</p>
+<p># Comments: 13</p>
+]]></description><pubDate>Tue, 21 Dec 2021 08:55:20 +0000</pubDate><link>https://sketch.metademolab.com/</link><dc:creator>newswasboring</dc:creator><comments>https://news.ycombinator.com/item?id=29635422</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29635422</guid></item><item><title><![CDATA[RCE in Visual Studio Code's Remote WSL for Fun and Negative Profit]]></title><description><![CDATA[
+<p>Article URL: <a href="https://parsiya.net/blog/2021-12-20-rce-in-visual-studio-codes-remote-wsl-for-fun-and-negative-profit/">https://parsiya.net/blog/2021-12-20-rce-in-visual-studio-codes-remote-wsl-for-fun-and-negative-profit/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29635300">https://news.ycombinator.com/item?id=29635300</a></p>
+<p>Points: 277</p>
+<p># Comments: 78</p>
+]]></description><pubDate>Tue, 21 Dec 2021 08:38:51 +0000</pubDate><link>https://parsiya.net/blog/2021-12-20-rce-in-visual-studio-codes-remote-wsl-for-fun-and-negative-profit/</link><dc:creator>gmemstr</dc:creator><comments>https://news.ycombinator.com/item?id=29635300</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29635300</guid></item><item><title><![CDATA[Tor in 2022]]></title><description><![CDATA[
+<p>Article URL: <a href="https://blog.torproject.org/tor-in-2022/">https://blog.torproject.org/tor-in-2022/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29635213">https://news.ycombinator.com/item?id=29635213</a></p>
+<p>Points: 149</p>
+<p># Comments: 52</p>
+]]></description><pubDate>Tue, 21 Dec 2021 08:25:06 +0000</pubDate><link>https://blog.torproject.org/tor-in-2022/</link><dc:creator>Sami_Lehtinen</dc:creator><comments>https://news.ycombinator.com/item?id=29635213</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29635213</guid></item><item><title><![CDATA[Tor Snowflake Proxy]]></title><description><![CDATA[
+<p>Article URL: <a href="https://snowflake.torproject.org/">https://snowflake.torproject.org/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=29634636">https://news.ycombinator.com/item?id=29634636</a></p>
+<p>Points: 176</p>
+<p># Comments: 72</p>
+]]></description><pubDate>Tue, 21 Dec 2021 06:32:11 +0000</pubDate><link>https://snowflake.torproject.org/</link><dc:creator>doomrobo</dc:creator><comments>https://news.ycombinator.com/item?id=29634636</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=29634636</guid></item></channel></rss>
