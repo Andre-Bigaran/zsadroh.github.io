@@ -21,6 +21,19 @@
       <height>48</height>
     </image>
     <item>
+      <title>test4</title>
+      <description>&lt;b&gt;FeedForAll &lt;/b&gt;helps Restaurant's communicate with customers. Let your customers know the latest specials or events.&lt;br&gt;
+&lt;br&gt;
+RSS feed uses include:&lt;br&gt;
+&lt;i&gt;&lt;font color="#FF0000"&gt;Daily Specials &lt;br&gt;
+Entertainment &lt;br&gt;
+Calendar of Events &lt;/i&gt;&lt;/font&gt;</description>
+      <link>http://www.feedforall.com/restaurant.htm</link>
+      <category domain="www.dmoz.com">Computers/Software/Internet/Site Management/Content Management</category>
+      <comments>http://www.feedforall.com/forum</comments>
+      <pubDate>Tue, 19 Oct 2004 11:09:11 -0400</pubDate>
+    </item>
+    <item>
       <title>test3</title>
       <description>&lt;b&gt;FeedForAll &lt;/b&gt;helps Restaurant's communicate with customers. Let your customers know the latest specials or events.&lt;br&gt;
 &lt;br&gt;
