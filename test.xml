@@ -1,5 +1,5 @@
 <rss version="2.0">
-  <channel>
+  <channel><test>
     <title>FeedForAll Sample Feed</title>
     <description>RSS is a fascinating technology. The uses for RSS are expanding daily. Take a closer look at how various industries are using the benefits of RSS in their businesses.</description>
     <link>http://www.feedforall.com/industry-solutions.htm</link>
@@ -184,6 +184,6 @@ Meetings&lt;/i&gt;&lt;/font&gt;</description>
       <category domain="www.dmoz.com">Computers/Software/Internet/Site Management/Content Management</category>
       <comments>http://www.feedforall.com/forum</comments>
       <pubDate>Tue, 19 Oct 2004 11:08:56 -0400</pubDate>
-    </item>
+    </item></test>
   </channel>
 </rss>
