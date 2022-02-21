@@ -1,1 +1,0 @@
-https://zsadroh.github.io
