@@ -4,6 +4,12 @@
 /*************************
 *******Typography******
 **************************/
+.homeSaying {
+  position: relative;
+  left: 30px;
+  top: 100px;
+}
+
 
 body {
   background: #fff;
