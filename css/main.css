@@ -4,19 +4,14 @@
 /*************************
 *******Typography******
 **************************/
-.homeSaying {
-  position: relative;
-  left: 100px;
-  top: 100px;
-}
-
 
 body {
   background: #050b18;
   background-image: url(/images/background-home.svg);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
+  resize: both;
 }
 
 h1,
@@ -180,8 +175,8 @@ body > section {
 *******Header******
 **************************/
 
-#header .search{
-  display: inline-block;
+#header {
+  display: fixed;
 }
 
 .navbar>.container .navbar-brand{
@@ -190,7 +185,7 @@ body > section {
 
 .top-bar {
   padding: 10px 0;
-  background: #191919;
+  background: #ffffff00;
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
