@@ -6,6 +6,7 @@
 **************************/
 .homeSaying {
   position: relative;
+  display: inline
   left: 100px;
   top: 100px;
 }
