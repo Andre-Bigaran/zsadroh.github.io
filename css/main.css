@@ -13,6 +13,13 @@ body {
   resize: both;
 }
 
+
+.background-image {
+  size: auto;
+  width: 400px; 
+  position: relative;
+}
+
 h1,
 h2,
 h3,
@@ -362,11 +369,6 @@ input.search-form:hover {
 *******Home Page******
 **************************/
 
-.background-image {
-  size: auto;
-  width: 400px; 
-  position: relative;
-}
 
 #middle {
   background: #f2f2f2;
