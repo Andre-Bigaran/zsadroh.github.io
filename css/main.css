@@ -28,6 +28,8 @@ body {
 .background img {
   width: 400px; 
   position: relative;
+  left: 65%;
+  top: 35vh;
 }
 
 h1,
