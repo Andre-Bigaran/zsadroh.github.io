@@ -690,7 +690,7 @@ a.accordion-toggle  i{
 .portfolio-filter {
   list-style: none outside none;
   margin: 0 0 40px 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .portfolio-filter > li {
@@ -938,54 +938,6 @@ textarea#message{
   padding-top: 0;
 }
 
-ul.gallery {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul.gallery li {
-  display: block;
-  width: 60px;
-  padding: 0;
-  margin: 0 4px 4px 0;
-  float: left;
-}
-
-ul.faq {
-  list-style: none;
-  margin: 0;
-}
-
-ul.faq li {
-  margin-top: 30px;
-}
-
-ul.faq li:first-child {
-  margin-top: 0;
-}
-
-ul.faq li span.number {
-  display: block;
-  float: left;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background: #34495e;
-  color: #fff;
-  font-size: 24px;
-}
-
-ul.faq li > div {
-  margin-left: 70px;
-}
-
-ul.faq li > div h3 {
-  margin-top: 0;
-}
-
-
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -1142,8 +1094,6 @@ shortcodes page css
   margin-top: 0;
   font-weight: 600
 }
-
-
 
 /***********************
 ********* Footer ******
