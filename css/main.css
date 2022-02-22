@@ -13,6 +13,12 @@ body {
   resize: both;
 }
 
+.homepage {
+  background-image: url(/images/background-home.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .background img {
   width: 400px; 
