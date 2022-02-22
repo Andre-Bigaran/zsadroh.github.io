@@ -24,6 +24,11 @@ body {
   
 }
 
+.profilePic {
+  position: relative;
+  left: 30%;
+}
+
 .background img {
   width: 450px; 
   position: relative;
