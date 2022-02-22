@@ -20,7 +20,7 @@ body {
 .homepage {
   background-image: url(/images/background-home.svg);
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   margin-bottom: 0px;
   right: 0;
   background-size: cover;
