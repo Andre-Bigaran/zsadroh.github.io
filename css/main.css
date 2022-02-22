@@ -96,7 +96,8 @@ hr {
   margin-top: 10px;
 }
 
-.active {
+.active:hover,
+.active:focus  {
   padding: 8px 20px;
   background: #ffffff;
   color: #6307bf;
