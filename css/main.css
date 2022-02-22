@@ -24,7 +24,6 @@ body {
   
 }
 
-
 .background img {
   width: 400px; 
   position: relative;
@@ -1625,20 +1624,6 @@ textarea#message{
 .widget {
   margin-bottom: 60px;
   padding-left: 0;
-}
-
-.single_comments {
-  margin-bottom: 20px;
-}
-
-.single_comments img {
-  float: left;
-  margin-right: 10px;
-  margin-top: 5px;
-}
-
-.single_comments p {
-  margin-bottom: 0;
 }
 
 .widget .entry-meta span {
