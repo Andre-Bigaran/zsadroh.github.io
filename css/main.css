@@ -20,7 +20,7 @@ body {
 .homepage {
   background-image: url(/images/background-home.svg);
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   margin-bottom: 0px;
   right: 0;
   background-size: cover;
@@ -244,14 +244,17 @@ body > section {
   color: #fff;
 }
 
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #6307bf;
   color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: rgb(255, 255, 255);
+  color: #6307bf;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
