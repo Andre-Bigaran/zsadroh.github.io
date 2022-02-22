@@ -13,6 +13,10 @@ body {
   resize: both;
 }
 
+.portfolio-items {
+  padding: 10px;
+}
+
 .homepage {
   background-image: url(/images/background-home.svg);
   width: 100%;
