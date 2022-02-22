@@ -198,54 +198,6 @@ body > section {
 *******Header******
 **************************/
 
-#header {
-  display: fixed;
-}
-
-.navbar>.container .navbar-brand{
-  margin-left: 0;
-}
-
-.top-bar {
-  padding: 10px 0;
-  background: #212121;
-  border-bottom: 1px solid #222;
-  line-height: 28px;
-}
-
-.top-number{
-  color: #fff;
-}
-
-.top-number p{
-  margin: 0
-}
-
-input.search-form{
-  background: transparent;
-  border: 0 none;
-  width: 60px;
-  padding: 0 10px;
-  color: #FFF;
-  -webkit-transition: all 400ms;
-  -moz-transition: all 400ms;
-  -ms-transition: all 400ms;
-  -o-transition: all 400ms;
-  transition: all 400ms;
-}
-
-input.search-form::-webkit-input-placeholder{
-  color: transparent;
-}
-
-input.search-form:hover::-webkit-input-placeholder {
-  color: #fff;
-}
-
-input.search-form:hover {
-  width: 180px;
-}
-
 .navbar-brand {
   padding: 0;
   margin:0;
