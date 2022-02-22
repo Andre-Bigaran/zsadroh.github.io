@@ -63,7 +63,7 @@ h4{
 }
 
 a {
-  color: #c52d2f;
+  color: #6307bf;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -82,7 +82,7 @@ hr {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #6307bf;
   color: #fff;
   border-radius: 4px;
   border:none;
@@ -92,7 +92,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-  background: #c52d2f;
+  background: #6307bf;
   outline: none;
   box-shadow: none;
 } 
@@ -214,41 +214,6 @@ body > section {
 
 .top-number p{
   margin: 0
-}
-
-.social{
-  text-align: right;
-}
-
-.social-share{
- display: inline-block;
- list-style: none;
- padding: 0;
- margin: 0;
-}
-
-ul.social-share li {
-  display: inline-block;
-}
-
-ul.social-share li a {
-  display: inline-block;
-  color: #fff;
-  background: #404040;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  border-radius: 2px;
-}
-
-ul.social-share li a:hover {
-  background: #c52d2f;
-  color: #fff;
-}
-
-.search i {
-  color: #fff;
 }
 
 input.search-form{
