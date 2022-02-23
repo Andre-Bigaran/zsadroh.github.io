@@ -13,6 +13,13 @@ body {
   resize: both;
 }
 
+.downloadButton {
+  background: #6307bf;
+  color: #fff;
+  border-radius: 20px;
+  border:none;
+}
+
 .portfolioItems {
   padding: 10px;
 }
