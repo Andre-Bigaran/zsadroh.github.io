@@ -6,7 +6,7 @@
 **************************/
 
 body {
-  background: #fff;
+  background: #050b18;
   font-family: 'Montserrat', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
@@ -19,7 +19,7 @@ body {
   border: none;
   color: #fff;
   line-height: 24px;
-  background-color: #050b18;
+  background-color: #6307bf;
 }
 
 .downloadButton:hover {
