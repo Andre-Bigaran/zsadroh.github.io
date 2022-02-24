@@ -1,4 +1,6 @@
-jQuery(document).ready(function($) {
+jQuery(function($) {'use strict',
+
+	$(function($) {
         		"use strict";
         		//  TESTIMONIALS CAROUSEL HOOK
 		        $('#customers-testimonials').owlCarousel({
@@ -23,9 +25,7 @@ jQuery(document).ready(function($) {
 		            }
 		        });
         	});
-
-jQuery(function($) {'use strict',
-
+	
 	//#main-slider
 	$(function(){
 		$('#main-slider.carousel').carousel({
